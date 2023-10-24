@@ -85,7 +85,7 @@ select:focus {
 
 /* Navbar Css */
 nav.navbar {
-  padding: 18px 60px;
+  padding: 6px 60px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -94,8 +94,8 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #eedfd2;
+  padding: 6px 60px;
+  background-color: rgba(238, 223, 210, 0.8);
 }
 
 nav.navbar a.navbar-brand {
@@ -271,7 +271,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0.75;
 }
 
-/************ Banner Css ************/
+/* Banner Css */
 
 .overlay {
   position: absolute;
@@ -379,4 +379,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-20px);
   }
+}
+
+/* Skills Css */
+.skills {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-box {
+  background: rgba(251, 248, 246, 0.9);
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.skills h2 {
+  color: #90af9f;
+  font-size: 45px;
+  font-weight: 700;
+}
+.skills p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.coding-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.design-skills {
+  display: flex;
+  justify-content: space-around;
+  padding: inherit;
+}
+
+.coding-icons img {
+  width: 18vw;
+  margin: 1vw;
+}
+
+.design-icons img {
+  width: 10vw;
+  margin: 1vw 4vw;
 }

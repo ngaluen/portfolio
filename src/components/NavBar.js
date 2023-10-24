@@ -62,10 +62,18 @@ export const NavBar = () => {
           </Nav>
           <span className="=navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/rhea-hui-482849292/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.behance.net/ngawunhui"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon2} alt="" />
               </a>
             </div>
