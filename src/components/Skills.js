@@ -1,5 +1,4 @@
-import { Container, Row, Col, CardGroup } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
+import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import html from "../assets/img/HTML.svg";
 import css from "../assets/img/CSS.svg";
@@ -11,25 +10,6 @@ import procreate from "../assets/img/Procreate.svg";
 import xd from "../assets/img/Xd.svg";
 
 export const Skills = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
   return (
     <section className="skills" id="skills">
       <Container>

@@ -91,11 +91,12 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.3s ease-in-out;
+  background-color: rgba(249, 243, 239);
 }
 
 nav.navbar.scrolled {
-  padding: 6px 60px;
-  background-color: rgba(238, 223, 210, 0.8);
+  padding: 8px 60px;
+  background-color: rgba(249, 243, 239);
 }
 
 nav.navbar a.navbar-brand {
@@ -109,6 +110,8 @@ nav.navbar a.navbar-brand {
   padding: 20px 40px !important;
   font-size: 18px;
   opacity: 0.75;
+  /* border-bottom: 2px solid #90af9f !important;
+  background-color: rgba(255, 255, 255, 0.8); */
 }
 
 a.nav-link:hover,
@@ -206,8 +209,8 @@ span.navbar-text {
 }
 
 nav.navbar .navbar-toggler {
-  margin-left: auto;
   border: none;
+  height: 76px;
 }
 
 nav.navbar .navbar-toggler:active,
@@ -260,15 +263,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
-}
-
-.nav-link {
-  font-weight: 400;
-  color: #497e71 !important;
-  letter-spacing: 0.8px;
-  padding: 20px 40px !important;
-  font-size: 18px;
-  opacity: 0.75;
 }
 
 /* Banner Css */
