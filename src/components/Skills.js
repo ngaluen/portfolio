@@ -8,6 +8,7 @@ import illustrator from "../assets/img/Illustrator.svg";
 import photoshop from "../assets/img/Photoshop.svg";
 import procreate from "../assets/img/Procreate.svg";
 import xd from "../assets/img/Xd.svg";
+import colorSharp from "../assets/img/color-sharp01.png";
 
 export const Skills = () => {
   return (
@@ -65,7 +66,7 @@ export const Skills = () => {
         </Row>
       </Container>
 
-      <img className="background-image-left" />
+      <img className="background-image-left" src={colorSharp} />
     </section>
   );
 };

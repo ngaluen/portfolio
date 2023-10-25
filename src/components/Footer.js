@@ -6,7 +6,7 @@ export const Footer = () => {
       <Container>
         <Row className="justify-content-center align-item-center">
           <Col sm={6} className="text-center">
-            <p>CopyRight 2023. All Right Reserved</p>
+            <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
