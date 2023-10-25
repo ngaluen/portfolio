@@ -431,13 +431,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Projects Css */
-.project {
+.projects {
   padding: 80px 0;
   position: relative;
   text-align: center;
 }
 
-.project h2 {
+.projects h2 {
   position: relative;
   font-size: 36px;
   font-weight: 700;
@@ -449,7 +449,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #90af9f;
 }
 
-.project p {
+.projects p {
   color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -459,7 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 
-.project .nav.nav-pills {
+.projects .nav.nav-pills {
   width: fit-content;
   margin: 0 auto;
   border-radius: 50px;
@@ -467,11 +467,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 
-.project .nav.nav-pills li.nav-item {
+.projects .nav.nav-pills li.nav-item {
   width: 33.33333%;
 }
 
-.project .nav.nav-pills .nav-link {
+.projects .nav.nav-pills .nav-link {
   background-color: transparent;
   color: #998670 !important;
   border-radius: 0;
@@ -484,7 +484,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link::before {
+.projects .nav.nav-pills .nav-link::before {
   content: "";
   position: absolute;
   width: 0;
@@ -496,11 +496,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.projects .nav.nav-pills .nav-link.active::before {
   width: 100%;
 }
 
-.project .nav.nav-pills .nav-link.active {
+.projects .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
