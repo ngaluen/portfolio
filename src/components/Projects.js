@@ -72,9 +72,9 @@ export const Projects = () => {
             <h2>PROJECTS</h2>
             <p>See below for my recent work! </p>
             <p>
-              For the Web Development and UX Projects, if you wish to see more
-              details, you can click onto the box and it directs you to my
-              GitHub/ Behance project!{" "}
+              For the Web Development and UI/UX Projects, if you would like to
+              explore further details, simply click on the box, and it will
+              direct you to my GitHub or Behance project page!{" "}
             </p>
 
             <Tab.Container id="project-tabs" defaultActiveKey="first">
