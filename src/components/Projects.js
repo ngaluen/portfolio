@@ -28,19 +28,19 @@ export const Projects = () => {
   const designs = [
     {
       title: "Citybus",
-      description: "Lorem Ipsum",
+      description: "UI/UX Case Study on Public Transport Mobile App",
       imgUrl: designImg1,
       linkUrl: "https://www.behance.net/gallery/181042211/Citybus",
     },
     {
       title: "JHC eShop",
-      description: "Lorem Ipsum",
+      description: "UI/UX Case Study on eCommerce Website",
       imgUrl: designImg2,
       linkUrl: "https://www.behance.net/gallery/182907821/JHC-eShop",
     },
     {
       title: "Foodpanda",
-      description: "Lorem Ipsum",
+      description: "UI/UX Case Study on Food Delivery Mobile App",
       imgUrl: designImg3,
       linkUrl: "https://www.behance.net/gallery/182909209/Foodpanda",
     },
@@ -49,17 +49,17 @@ export const Projects = () => {
   const illustrations = [
     {
       title: "Borovan Day Hasee",
-      description: "for Neopets Art Gallery",
+      description: "For Neopets Art Gallery",
       imgUrl: illustrationImg1,
     },
     {
       title: "Fruit Machine",
-      description: "Food Recommendations",
+      description: "For Neopets Art Gallery",
       imgUrl: illustrationImg2,
     },
     {
       title: "Spring Ona",
-      description: "for Neopets Art Gallery",
+      description: "For Neopets Art Gallery",
       imgUrl: illustrationImg3,
     },
   ];
@@ -87,7 +87,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="first">Web Development</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">UX/UI Cases</Nav.Link>
+                  <Nav.Link eventKey="second">UI/UX Cases</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Illustrations</Nav.Link>
