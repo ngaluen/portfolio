@@ -70,7 +70,7 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>PROJECTS</h2>
-            <p>See below for my recent Work! </p>
+            <p>See below for my recent work! </p>
             <p>
               For the Web Development and UX Projects, if you wish to see more
               details, you can click onto the box and it directs you to my
